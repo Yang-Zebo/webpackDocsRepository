@@ -4,19 +4,15 @@ module.exports = {
   // 站点配置
   base: "/webpack5-docs/",
   lang: "zh-CN",
-  head: [["link", { rel: "icon", href: "/imgs/favicon.ico" }]],
-  title: "尚硅谷 Web 前端之 Webpack5 教程",
+  head: [["link", { rel: "icon", href: "/imgs/logo.jpg" }]],
+  title: "Webpack5 笔记",
   description: "Webpack5从小白到大神",
   // 主题和它的配置
   theme: "@vuepress/theme-default",
   themeConfig: {
-    logo: "/imgs/favicon.ico",
+    logo: "/imgs/logo.jpg",
     lastUpdated: false,
     navbar: [
-      {
-        text: "课程介绍",
-        link: "/intro/",
-      },
       {
         text: "基础",
         link: "/base/",
@@ -35,12 +31,6 @@ module.exports = {
       },
     ],
     sidebar: {
-      "/intro/": [
-        {
-          text: "课程介绍",
-          children: ["/intro/README.md", "/intro/pre.md", "/intro/group.md", "/intro/learn.md", "/intro/asset.md"],
-        },
-      ],
       "/base/": [
         {
           text: "基础配置",

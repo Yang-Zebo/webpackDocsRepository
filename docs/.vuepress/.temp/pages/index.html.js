@@ -6,13 +6,8 @@ export const data = {
   "frontmatter": {
     "home": true,
     "title": "首页",
-    "heroImage": "/imgs/logo.svg",
+    "heroImage": "/imgs/logo.jpg",
     "actions": [
-      {
-        "text": "课程介绍",
-        "link": "/intro/",
-        "type": "secondary"
-      },
       {
         "text": "基础 →",
         "link": "/base/",
@@ -33,11 +28,19 @@ export const data = {
         "details": "不同角度实现loader、plugin"
       }
     ],
-    "footer": "MIT Licensed | Copyright © 2022-present 尚硅谷"
+    "footer": "MIT Licensed | Copyright © 2022-present"
   },
   "excerpt": "",
   "headers": [],
-  "git": {},
+  "git": {
+    "contributors": [
+      {
+        "name": "yang-zebo",
+        "email": "1282258957@qq.com",
+        "commits": 1
+      }
+    ]
+  },
   "filePathRelative": "README.md"
 }
 

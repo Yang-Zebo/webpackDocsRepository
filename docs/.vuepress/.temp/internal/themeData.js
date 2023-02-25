@@ -1,11 +1,7 @@
 export const themeData = {
-  "logo": "/imgs/favicon.ico",
+  "logo": "/imgs/logo.jpg",
   "lastUpdated": false,
   "navbar": [
-    {
-      "text": "课程介绍",
-      "link": "/intro/"
-    },
     {
       "text": "基础",
       "link": "/base/"
@@ -24,18 +20,6 @@ export const themeData = {
     }
   ],
   "sidebar": {
-    "/intro/": [
-      {
-        "text": "课程介绍",
-        "children": [
-          "/intro/README.md",
-          "/intro/pre.md",
-          "/intro/group.md",
-          "/intro/learn.md",
-          "/intro/asset.md"
-        ]
-      }
-    ],
     "/base/": [
       {
         "text": "基础配置",

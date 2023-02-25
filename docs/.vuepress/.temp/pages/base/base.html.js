@@ -56,7 +56,15 @@ export const data = {
       "children": []
     }
   ],
-  "git": {},
+  "git": {
+    "contributors": [
+      {
+        "name": "yang-zebo",
+        "email": "1282258957@qq.com",
+        "commits": 1
+      }
+    ]
+  },
   "filePathRelative": "base/base.md"
 }
 
